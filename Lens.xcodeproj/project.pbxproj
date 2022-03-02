@@ -16,6 +16,9 @@
 		4A122BB627CFAE9100456D3A /* LensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A122BB527CFAE9100456D3A /* LensTests.swift */; };
 		4A122BC027CFAE9100456D3A /* LensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A122BBF27CFAE9100456D3A /* LensUITests.swift */; };
 		4A122BC227CFAE9100456D3A /* LensUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A122BC127CFAE9100456D3A /* LensUITestsLaunchTests.swift */; };
+		4A122BD427CFC92E00456D3A /* Lens in Frameworks */ = {isa = PBXBuildFile; productRef = 4A122BD327CFC92E00456D3A /* Lens */; };
+		4A122BD627CFC93400456D3A /* Connector in Frameworks */ = {isa = PBXBuildFile; productRef = 4A122BD527CFC93400456D3A /* Connector */; };
+		4A122BD827CFC93A00456D3A /* Utilities in Frameworks */ = {isa = PBXBuildFile; productRef = 4A122BD727CFC93A00456D3A /* Utilities */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,8 @@
 		4A122BBB27CFAE9100456D3A /* LensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A122BBF27CFAE9100456D3A /* LensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LensUITests.swift; sourceTree = "<group>"; };
 		4A122BC127CFAE9100456D3A /* LensUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LensUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4A122BCF27CFB1A600456D3A /* Lens */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Lens; sourceTree = "<group>"; };
+		4A122BD027CFB3A200456D3A /* Utilities */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Utilities; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +61,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A122BD627CFC93400456D3A /* Connector in Frameworks */,
+				4A122BD827CFC93A00456D3A /* Utilities in Frameworks */,
+				4A122BD427CFC92E00456D3A /* Lens in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +87,12 @@
 		4A122B9227CFAE8E00456D3A = {
 			isa = PBXGroup;
 			children = (
+				4A122BCE27CFB16700456D3A /* Packages */,
 				4A122B9D27CFAE8F00456D3A /* Lens */,
 				4A122BB427CFAE9100456D3A /* LensTests */,
 				4A122BBE27CFAE9100456D3A /* LensUITests */,
 				4A122B9C27CFAE8F00456D3A /* Products */,
+				4A122BD227CFC92E00456D3A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +137,22 @@
 			path = LensUITests;
 			sourceTree = "<group>";
 		};
+		4A122BCE27CFB16700456D3A /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				4A122BD027CFB3A200456D3A /* Utilities */,
+				4A122BCF27CFB1A600456D3A /* Lens */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		4A122BD227CFC92E00456D3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +169,11 @@
 			dependencies = (
 			);
 			name = Lens;
+			packageProductDependencies = (
+				4A122BD327CFC92E00456D3A /* Lens */,
+				4A122BD527CFC93400456D3A /* Connector */,
+				4A122BD727CFC93A00456D3A /* Utilities */,
+			);
 			productName = Lens;
 			productReference = 4A122B9B27CFAE8F00456D3A /* Lens.app */;
 			productType = "com.apple.product-type.application";
@@ -604,6 +635,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4A122BD327CFC92E00456D3A /* Lens */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Lens;
+		};
+		4A122BD527CFC93400456D3A /* Connector */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Connector;
+		};
+		4A122BD727CFC93A00456D3A /* Utilities */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Utilities;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4A122B9327CFAE8E00456D3A /* Project object */;
 }
