@@ -39,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4A122B9B27CFAE8F00456D3A /* Lens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A122B9B27CFAE8F00456D3A /* LensSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LensSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A122B9E27CFAE8F00456D3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A122BA027CFAE8F00456D3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4A122BA227CFAE8F00456D3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,9 +47,9 @@
 		4A122BA727CFAE9100456D3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A122BAA27CFAE9100456D3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A122BAC27CFAE9100456D3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A122BB127CFAE9100456D3A /* LensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LensTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A122BB127CFAE9100456D3A /* LensSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LensSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A122BB527CFAE9100456D3A /* LensTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LensTests.swift; sourceTree = "<group>"; };
-		4A122BBB27CFAE9100456D3A /* LensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A122BBB27CFAE9100456D3A /* LensSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LensSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A122BBF27CFAE9100456D3A /* LensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LensUITests.swift; sourceTree = "<group>"; };
 		4A122BC127CFAE9100456D3A /* LensUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LensUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4A122BCF27CFB1A600456D3A /* Lens */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Lens; sourceTree = "<group>"; };
@@ -88,9 +88,9 @@
 			isa = PBXGroup;
 			children = (
 				4A122BCE27CFB16700456D3A /* Packages */,
-				4A122B9D27CFAE8F00456D3A /* Lens */,
-				4A122BB427CFAE9100456D3A /* LensTests */,
-				4A122BBE27CFAE9100456D3A /* LensUITests */,
+				4A122B9D27CFAE8F00456D3A /* LensSample */,
+				4A122BB427CFAE9100456D3A /* LensSampleTests */,
+				4A122BBE27CFAE9100456D3A /* LensSampleUITests */,
 				4A122B9C27CFAE8F00456D3A /* Products */,
 				4A122BD227CFC92E00456D3A /* Frameworks */,
 			);
@@ -99,14 +99,14 @@
 		4A122B9C27CFAE8F00456D3A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4A122B9B27CFAE8F00456D3A /* Lens.app */,
-				4A122BB127CFAE9100456D3A /* LensTests.xctest */,
-				4A122BBB27CFAE9100456D3A /* LensUITests.xctest */,
+				4A122B9B27CFAE8F00456D3A /* LensSample.app */,
+				4A122BB127CFAE9100456D3A /* LensSampleTests.xctest */,
+				4A122BBB27CFAE9100456D3A /* LensSampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4A122B9D27CFAE8F00456D3A /* Lens */ = {
+		4A122B9D27CFAE8F00456D3A /* LensSample */ = {
 			isa = PBXGroup;
 			children = (
 				4A122B9E27CFAE8F00456D3A /* AppDelegate.swift */,
@@ -117,24 +117,24 @@
 				4A122BA927CFAE9100456D3A /* LaunchScreen.storyboard */,
 				4A122BAC27CFAE9100456D3A /* Info.plist */,
 			);
-			path = Lens;
+			path = LensSample;
 			sourceTree = "<group>";
 		};
-		4A122BB427CFAE9100456D3A /* LensTests */ = {
+		4A122BB427CFAE9100456D3A /* LensSampleTests */ = {
 			isa = PBXGroup;
 			children = (
 				4A122BB527CFAE9100456D3A /* LensTests.swift */,
 			);
-			path = LensTests;
+			path = LensSampleTests;
 			sourceTree = "<group>";
 		};
-		4A122BBE27CFAE9100456D3A /* LensUITests */ = {
+		4A122BBE27CFAE9100456D3A /* LensSampleUITests */ = {
 			isa = PBXGroup;
 			children = (
 				4A122BBF27CFAE9100456D3A /* LensUITests.swift */,
 				4A122BC127CFAE9100456D3A /* LensUITestsLaunchTests.swift */,
 			);
-			path = LensUITests;
+			path = LensSampleUITests;
 			sourceTree = "<group>";
 		};
 		4A122BCE27CFB16700456D3A /* Packages */ = {
@@ -156,9 +156,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4A122B9A27CFAE8E00456D3A /* Lens */ = {
+		4A122B9A27CFAE8E00456D3A /* LensSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A122BC527CFAE9100456D3A /* Build configuration list for PBXNativeTarget "Lens" */;
+			buildConfigurationList = 4A122BC527CFAE9100456D3A /* Build configuration list for PBXNativeTarget "LensSample" */;
 			buildPhases = (
 				4A122B9727CFAE8E00456D3A /* Sources */,
 				4A122B9827CFAE8E00456D3A /* Frameworks */,
@@ -168,19 +168,19 @@
 			);
 			dependencies = (
 			);
-			name = Lens;
+			name = LensSample;
 			packageProductDependencies = (
 				4A122BD327CFC92E00456D3A /* Lens */,
 				4A122BD527CFC93400456D3A /* Connector */,
 				4A122BD727CFC93A00456D3A /* Utilities */,
 			);
 			productName = Lens;
-			productReference = 4A122B9B27CFAE8F00456D3A /* Lens.app */;
+			productReference = 4A122B9B27CFAE8F00456D3A /* LensSample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4A122BB027CFAE9100456D3A /* LensTests */ = {
+		4A122BB027CFAE9100456D3A /* LensSampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A122BC827CFAE9100456D3A /* Build configuration list for PBXNativeTarget "LensTests" */;
+			buildConfigurationList = 4A122BC827CFAE9100456D3A /* Build configuration list for PBXNativeTarget "LensSampleTests" */;
 			buildPhases = (
 				4A122BAD27CFAE9100456D3A /* Sources */,
 				4A122BAE27CFAE9100456D3A /* Frameworks */,
@@ -191,14 +191,14 @@
 			dependencies = (
 				4A122BB327CFAE9100456D3A /* PBXTargetDependency */,
 			);
-			name = LensTests;
+			name = LensSampleTests;
 			productName = LensTests;
-			productReference = 4A122BB127CFAE9100456D3A /* LensTests.xctest */;
+			productReference = 4A122BB127CFAE9100456D3A /* LensSampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4A122BBA27CFAE9100456D3A /* LensUITests */ = {
+		4A122BBA27CFAE9100456D3A /* LensSampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A122BCB27CFAE9100456D3A /* Build configuration list for PBXNativeTarget "LensUITests" */;
+			buildConfigurationList = 4A122BCB27CFAE9100456D3A /* Build configuration list for PBXNativeTarget "LensSampleUITests" */;
 			buildPhases = (
 				4A122BB727CFAE9100456D3A /* Sources */,
 				4A122BB827CFAE9100456D3A /* Frameworks */,
@@ -209,9 +209,9 @@
 			dependencies = (
 				4A122BBD27CFAE9100456D3A /* PBXTargetDependency */,
 			);
-			name = LensUITests;
+			name = LensSampleUITests;
 			productName = LensUITests;
-			productReference = 4A122BBB27CFAE9100456D3A /* LensUITests.xctest */;
+			productReference = 4A122BBB27CFAE9100456D3A /* LensSampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -237,7 +237,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4A122B9627CFAE8E00456D3A /* Build configuration list for PBXProject "Lens" */;
+			buildConfigurationList = 4A122B9627CFAE8E00456D3A /* Build configuration list for PBXProject "LensSample" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -250,9 +250,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4A122B9A27CFAE8E00456D3A /* Lens */,
-				4A122BB027CFAE9100456D3A /* LensTests */,
-				4A122BBA27CFAE9100456D3A /* LensUITests */,
+				4A122B9A27CFAE8E00456D3A /* LensSample */,
+				4A122BB027CFAE9100456D3A /* LensSampleTests */,
+				4A122BBA27CFAE9100456D3A /* LensSampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -317,12 +317,12 @@
 /* Begin PBXTargetDependency section */
 		4A122BB327CFAE9100456D3A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4A122B9A27CFAE8E00456D3A /* Lens */;
+			target = 4A122B9A27CFAE8E00456D3A /* LensSample */;
 			targetProxy = 4A122BB227CFAE9100456D3A /* PBXContainerItemProxy */;
 		};
 		4A122BBD27CFAE9100456D3A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4A122B9A27CFAE8E00456D3A /* Lens */;
+			target = 4A122B9A27CFAE8E00456D3A /* LensSample */;
 			targetProxy = 4A122BBC27CFAE9100456D3A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -472,7 +472,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZKA3K3Z67J;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Lens/Info.plist;
+				INFOPLIST_FILE = LensSample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -483,7 +483,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hayashi.Lens;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hayashi.LensSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -500,7 +500,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZKA3K3Z67J;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Lens/Info.plist;
+				INFOPLIST_FILE = LensSample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -511,7 +511,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hayashi.Lens;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hayashi.LensSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -535,7 +535,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lens.app/Lens";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LensSample.app/LensSample";
 			};
 			name = Debug;
 		};
@@ -555,7 +555,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lens.app/Lens";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LensSample.app/LensSample";
 			};
 			name = Release;
 		};
@@ -598,7 +598,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4A122B9627CFAE8E00456D3A /* Build configuration list for PBXProject "Lens" */ = {
+		4A122B9627CFAE8E00456D3A /* Build configuration list for PBXProject "LensSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A122BC327CFAE9100456D3A /* Debug */,
@@ -607,7 +607,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A122BC527CFAE9100456D3A /* Build configuration list for PBXNativeTarget "Lens" */ = {
+		4A122BC527CFAE9100456D3A /* Build configuration list for PBXNativeTarget "LensSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A122BC627CFAE9100456D3A /* Debug */,
@@ -616,7 +616,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A122BC827CFAE9100456D3A /* Build configuration list for PBXNativeTarget "LensTests" */ = {
+		4A122BC827CFAE9100456D3A /* Build configuration list for PBXNativeTarget "LensSampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A122BC927CFAE9100456D3A /* Debug */,
@@ -625,7 +625,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A122BCB27CFAE9100456D3A /* Build configuration list for PBXNativeTarget "LensUITests" */ = {
+		4A122BCB27CFAE9100456D3A /* Build configuration list for PBXNativeTarget "LensSampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A122BCC27CFAE9100456D3A /* Debug */,
